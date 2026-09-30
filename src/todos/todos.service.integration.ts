@@ -38,7 +38,7 @@ describe('TodosService integration (Prisma + MySQL)', () => {
 
     expect(found).toMatchObject({
       id: created.id,
-      title,
+      title: `${title}-intentional-failure`,
       completed: false,
     });
     expect(found.createdAt).toBeInstanceOf(Date);
