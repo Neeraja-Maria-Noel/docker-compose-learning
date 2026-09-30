@@ -21,3 +21,5 @@ Set `DATABASE_URL` in `.env` to your MySQL database.
 - `POST /api/todos` with `{ "title": "Buy milk" }`
 - `PATCH /api/todos/:id` with `{ "title": "Buy oat milk", "completed": true }`
 - `DELETE /api/todos/:id`
+
+added test
